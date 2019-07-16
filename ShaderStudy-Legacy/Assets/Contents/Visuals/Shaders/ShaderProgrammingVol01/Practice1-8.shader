@@ -1,4 +1,4 @@
-﻿Shader "Custom/USPV01/Sample01"
+﻿Shader "Custom/USPV01/Practice1-8"
 {
 	SubShader
 	{
@@ -30,7 +30,13 @@
 
 			fixed4 frag(v2f i) : SV_Target
 			{
-				fixed4 color = fixed4(0, 1, 0, 1);
+				// ans1
+				//fixed4 color = fixed4(0, 1, 0, 1);
+
+				//ans2
+				fixed4 color = fixed4(0,0,0,1);
+				color.g = 1;
+
 				return color;
 			}
 

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NearClip_AlphaAdditive
+  m_Shader: {fileID: 4800000, guid: 62ff9b3be715ab14cbd2133a1f3505aa, type: 3}
+  m_ShaderKeywords: _METHOD_PROPERTY
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1f7e99315a1119e4a91f6ff673d1da28, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _EndDistance: 0.85
+    - _InvFade: 0.8
+    - _Method: 0
+    - _StartDistance: 2
+    m_Colors:
+    - _TintColor: {r: 0.05709344, g: 0.64705884, b: 0.066, a: 0.78431374}
